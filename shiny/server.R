@@ -1,4 +1,4 @@
-library('shiny')
+#library('shiny')
 
 ## These values can be set to override default locations
 BASE_PATH <- base::normalizePath('..')
