@@ -24,7 +24,8 @@ transcript structure events for any given pair of transcript isoforms.
 # Load required libraries
 import sys
 import argparse
-from numpy import sort
+#from numpy import sort
+import numpy
 from pandas import DataFrame, read_csv, concat
 from networkx import all_simple_paths, DiGraph
 
